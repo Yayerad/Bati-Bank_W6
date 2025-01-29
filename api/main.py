@@ -20,8 +20,8 @@ app = FastAPI(
 
 # Load models
 try:
-    lr_model = joblib.load('credit_scoring_lr.pkl')
-    rf_model = joblib.load('credit_scoring_rf.pkl')
+    lr_model = joblib.load('../credit_scoring_lr.pkl')
+    rf_model = joblib.load('../credit_scoring_rf.pkl')
     logger.info("Models loaded successfully")
 except Exception as e:
     logger.error(f"Error loading models: {str(e)}")
