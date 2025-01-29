@@ -17,7 +17,7 @@
 
 ---
 
-<h2 id="overview">📝 Overview</h2>
+<h2 id="overview"> Overview</h2>
 
 <p>
   This project is a credit scoring system developed for <strong>Bati Bank</strong> to assess the creditworthiness of customers for their <em>buy-now-pay-later</em> service. The system uses machine learning models to predict the likelihood of customer default and assigns credit scores based on transaction data.
@@ -25,7 +25,7 @@
 
 ---
 
-<h2 id="folder-structure">📂 Folder Structure</h2>
+<h2 id="folder-structure"> Folder Structure</h2>
 
 <pre>
 .
@@ -50,7 +50,7 @@
 
 ---
 
-<h2 id="key-features">✨ Key Features</h2>
+<h2 id="key-features"> Key Features</h2>
 
 <ul>
   <li><strong>Notebook-based Workflow:</strong> Complete analysis in Jupyter notebooks</li>
@@ -61,7 +61,7 @@
 
 ---
 
-<h2 id="installation">🚀 Installation</h2>
+<h2 id="installation"> Installation</h2>
 
 <h3>Prerequisites</h3>
 <ul>
@@ -87,7 +87,7 @@ source .venv/bin/activate  # Linux/MacOS
 
 ---
 
-<h2 id="usage">💻 Usage</h2>
+<h2 id="usage"> Usage</h2>
 
 <h3>Notebook Execution</h3>
 <p>Run notebooks in this order:</p>
@@ -107,7 +107,7 @@ docker run -p 8000:8000 credit-api</code></pre>
 
 ---
 
-<h2 id="api-documentation">📚 API Endpoints</h2>
+<h2 id="api-documentation">API Endpoints</h2>
 
 <h3>Prediction Endpoints</h3>
 <pre><code>POST /predict/lr     # Logistic Regression prediction
@@ -120,7 +120,7 @@ POST /predict/rf     # Random Forest prediction</code></pre>
 
 ---
 
-<h2 id="contributing">🤝 Contributing</h2>
+<h2 id="contributing"> Contributing</h2>
 
 <p>Follow these steps to contribute:</p>
 <ol>
@@ -146,5 +146,5 @@ POST /predict/rf     # Random Forest prediction</code></pre>
 </p>
 
 <p align="center">
-  Made with ❤️ by Your Name | Bati Bank Analytics Team
+  Made with ❤️ by Yayerad 
 </p>
